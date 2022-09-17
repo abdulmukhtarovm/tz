@@ -41,7 +41,7 @@ const Navbar = () => {
                                     <div className='big-dropdown'>
                                         <div className="row">
                                             <div className="col-4 p-0 myPad ">
-                                                <h3>Politics</h3>
+                                                <h3 className='drop-title'>Politics</h3>
 
                                                 {/* <div className="img-shadow">
                                                     <img className='w-100' src="img/img-shad.webp" alt="" />
@@ -160,9 +160,87 @@ const Navbar = () => {
                                 </li>
                                 <li className='nav-link'>
                                     <a className='nav__link' href="#">Technology <FontAwesomeIcon className='rot' icon={faChevronDown} /></a>
+
+                                    <div className="tech-dropdown">
+                                        <h3 className='drop-title'>Technology</h3>
+                                        <div className="block-inner">
+                                            <div className="card">
+                                                <a href="/">
+                                                    <div className="img">
+                                                        <img className='w-100' src="img/tech1.webp" alt="" />
+                                                    </div>
+                                                    <div className="text inners">
+                                                        <h5>
+                                                            How My Phone’s Most Annoying Feature Saved My Life
+                                                        </h5>
+                                                        <span>Oct 1, 2021</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div className="card">
+                                                <a href="/">
+                                                    <div className="img">
+                                                        <img className='w-100' src="img/tech2.webp" alt="" />
+                                                    </div>
+                                                    <div className="text inners">
+                                                        <h5>
+                                                            How My Phone’s Most Annoying Feature Saved My Life
+                                                        </h5>
+                                                        <span>Oct 1, 2021</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div className="card">
+                                                <a href="/">
+                                                    <div className="img">
+                                                        <img className='w-100' src="img/tech3.webp" alt="" />
+                                                    </div>
+                                                    <div className="text inners">
+                                                        <h5>
+                                                            How My Phone’s Most Annoying Feature Saved My Life
+                                                        </h5>
+                                                        <span>Oct 1, 2021</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div className="card">
+                                                <a href="/">
+                                                    <div className="img">
+                                                        <img className='w-100' src="img/tech4.webp" alt="" />
+                                                    </div>
+                                                    <div className="text inners">
+                                                        <h5>
+                                                            How My Phone’s Most Annoying Feature Saved My Life
+                                                        </h5>
+                                                        <span>Oct 1, 2021</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div className="card">
+                                                <a href="/">
+                                                    <div className="img">
+                                                        <img className='w-100' src="img/tech5.webp" alt="" />
+                                                    </div>
+                                                    <div className="text inners">
+                                                        <h5>
+                                                            How My Phone’s Most Annoying Feature Saved My Life
+                                                        </h5>
+                                                        <span>Oct 1, 2021</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li className='nav-link'>
                                     <a className='nav__link' href="#">Posts <FontAwesomeIcon className='rot' icon={faChevronDown} /></a>
+
+                                    <ul className='post-dropdown'>
+                                        <li className='post-li'><a href="#">Post Layouts <span>Unlimited</span></a></li>
+                                        <li className='post-li'><a href="#">Gallery Layouts</a></li>
+                                        <li className='post-li'><a href="#">Video Layouts <span>New</span></a></li>
+                                        <li className='post-li'><a href="#">Audio Layouts</a></li>
+                                    </ul>
                                 </li>
                                 <li className='nav-link'>
                                     <a className='nav__link' href="#"> Bookmarks</a>
